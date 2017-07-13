@@ -1,0 +1,285 @@
+/*---------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #1c1c1c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ---- HEADINGS ---- */
+
+h1,
+h2,
+h3 {font-family: 'Comfortaa', cursive;}
+
+/* ---- LINKS ---- */
+
+a:link,
+a:visited {
+    color: #888;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active {color: #27ae60;}
+
+a,
+.navbar-nav {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+/* ---- IMAGES ---- */
+
+img {
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel-caption {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    bottom: 0;
+    left: 2.7%;
+    right: 2.7%;
+    text-align: center;
+    position: absolute;
+    padding-bottom: 1%;
+    z-index: 10;
+}
+
+.carousel-caption h3{
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*---------------------------------*/
+/* ANIMATIONS */
+/*---------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated {
+    opacity: 1;
+}
+
+/*---------------------------------*/
+/* JUMBOTRON */
+/*---------------------------------*/
+
+#sagamore-jumbo {
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/leo-fosdal-113874.jpg) no-repeat;
+    overflow: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+#jumbo-text {margin-top: 30%;}
+
+#jumbo-text h3 {
+    text-align: center;
+    padding-right: 12%;
+}
+
+.highlight {color: #27ae60;}
+
+.hide {display: none;}
+
+/*---------------------------------*/
+/* CONSTRUCTION */
+/*---------------------------------*/
+
+#construction {
+    background: #27ae60;
+    color: #fff;
+    padding: 5%;
+}
+
+#capabilites li{
+    margin-left: 10%;
+}
+
+.highlight-img img{
+    padding-top: 5%;
+    position: relative;
+}
+
+#licenses {
+    text-align: right;
+    list-style: none;
+}
+
+/*---------------------------------*/
+/* PLUMBING & HVAC */
+/*---------------------------------*/
+
+#plumbing {
+    background: #f4f4f4;
+}
+
+#plumbing,
+#hvac {
+    padding: 5%;
+}
+
+#plumbing img,
+#hvac img{
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+/*---------------------------------*/
+/* PROJECTS */
+/*---------------------------------*/
+
+#projects {
+    padding: 5%;
+    background: #f4f4f4;
+}
+
+#projects p {margin-bottom: 7%;}
+
+.project img {
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+
+/*---------------------------------*/
+/* COMMERCIAL */
+/*---------------------------------*/
+
+#commercial,
+#community {
+    background: #27ae60;
+    color: #fff;
+    padding: 5%;
+}
+
+#commercial img {padding-top: 10%;}
+
+/*---------------------------------*/
+/* SERVICES */
+/*---------------------------------*/
+
+#services {padding: 5%;}
+
+#services h3 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+i.highlight{
+    font-size: 500%;
+    display: block;
+    text-align: center;
+}
+
+/*---------------------------------*/
+/* ABOUT */
+/*---------------------------------*/
+
+#about {
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/ricardo-gomez-angel-294907.jpg) no-repeat;
+    padding: 5%;
+    overflow: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*---------------------------------*/
+/* COMMUNITY */
+/*---------------------------------*/
+
+#community li{margin-left: 7%;}
+
+#community img {margin-top: 12%;}
+
+/*---------------------------------*/
+/* FOOTER */
+/*--------------------------------*/
+
+footer {
+    background-color: #333;
+    color: #9d9d9d;
+    padding: 2%;
+    font-size: 90%;
+}
+
+.copyright {text-align: center;}
+
+.footer-nav,
+.social-links {list-style: none;}
+
+.footer-nav {float: left;}
+
+.social-links {float: right;}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {margin-right: 0;}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {font-size: 200%;}
+
+.ion-social-facebook,
+.ion-social-linkedin {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.ion-social-facebook:hover {color: #3b5998;}
+
+.ion-social-linkedin:hover {color: #0077b5;}
