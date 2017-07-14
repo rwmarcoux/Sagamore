@@ -305,7 +305,7 @@ footer {
     .social-links {
         float: none;
         text-align: center;
-        margin: 2% auto;
+        margin: 0 auto;
     }
     
 }
@@ -313,8 +313,8 @@ footer {
 /*Small phones to small tablets: from 481px to 767px*/
 @media only screen and (max-width: 767px){
     
-    .jumbotron,
-    .about {
+    #sagamore-jumbo,
+    #about {
         background-attachment: scroll;
     }
     
